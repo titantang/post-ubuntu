@@ -1,13 +1,22 @@
 #!/bin/bash
 
 ########################################
-# common
+# common packages install
 ########################################
 sudo apt-get install kvm virt-manager emacs23 vim-gnome vim build-essential cairo-dock vlc flashplugin-installer xul-ext-notify libnotify-bin pidgin busybox  wine1.2 elinks curl git-core filezilla openvpn gmail-notify htop gstreamer0.10-ffmpeg gstreamer0.10-fluendo-mp3 gstreamer0.10-plugins-ugly unrar p7zip chmsee zsh vncviewer
 
+# Adobe Reader
+wget http://ardownload.adobe.com/pub/adobe/reader/unix/9.x/9.3.3/enu/AdbeRdr9.3.3-1_i486linux_enu.bin -O /tmp
+chmod +x /tmp/AdbeRdr9.3.3-1_i486linux_enu.bin
+sudo /tmp/AdbeRdr9.3.3-1_i486linux_enu.bin
+
+# Adobe air
+wget http://airdownload.adobe.com/air/lin/download/latest/adobeair.deb -O /tmp
+sudo dpkg -i /tmp/adobeair.deb
+
 
 ########################################
-# development
+# development packages install
 ########################################
 sudo apt-get install openjdk-6-jdk maven2 tomcat6 php5 apache2 mysql-server bison autoconf automake zlib1g zlib1g-dev zlibc libssl-dev libreadline5-dev libxml2-dev libsqlite3-dev
 
