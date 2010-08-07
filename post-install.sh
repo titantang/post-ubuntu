@@ -3,7 +3,7 @@
 ########################################
 # common packages install
 ########################################
-sudo apt-get install kvm virt-manager emacs23 vim-gnome vim build-essential cairo-dock vlc flashplugin-installer xul-ext-notify libnotify-bin pidgin busybox  wine1.2 elinks curl git-core filezilla openvpn gmail-notify htop gstreamer0.10-ffmpeg gstreamer0.10-fluendo-mp3 gstreamer0.10-plugins-ugly unrar p7zip chmsee zsh vncviewer
+sudo apt-get install kvm virt-manager emacs23 vim-gnome vim build-essential cairo-dock vlc flashplugin-installer xul-ext-notify libnotify-bin pidgin busybox  wine1.2 elinks curl git-core filezilla openvpn gmail-notify htop gstreamer0.10-ffmpeg gstreamer0.10-fluendo-mp3 gstreamer0.10-plugins-ugly unrar p7zip chmsee zsh vncviewer ack-grep
 
 # Adobe Reader
 wget http://ardownload.adobe.com/pub/adobe/reader/unix/9.x/9.3.3/enu/AdbeRdr9.3.3-1_i486linux_enu.bin -O /tmp
